@@ -11,7 +11,9 @@ void test()
     z++;
     x = x + y + z;
 
-    printf("x = %d, y = %d, z = %d\n", x,y,z);
+    printf("\nGlobal Variable x = %d\n", x); 
+    printf("Local static variable y = %d\n", y); 
+    printf("Local auto variable z = %d\n", z);
 }
 
 
