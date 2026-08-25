@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-static int x = 100;
+static int x = 100; // global variable
 
 void test()
 {
-    static int y = 0;
-    int z = 0;
+    static int y = 0; //local static variable
+    int z = 0; // Local auto variable
 
     y++;
     z++;
