@@ -19,7 +19,7 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-        printf("%d", a[i]);
+        printf("%d ", a[i]);
         sum += a[i];
     }
     average = sum / n;
