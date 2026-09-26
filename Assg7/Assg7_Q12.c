@@ -35,10 +35,10 @@ int main()
         printf("Sum of Row %d = %d\n", i + 1, sum);
     }
 
-    for (i = 0; i < m; i++)
+    for (i = 0; i < n; i++)
     {
         sum = 0;
-        for (j = 0; j < n; j++)
+        for (j = 0; j < m; j++)
         {
             sum += a[j][i];
         }
