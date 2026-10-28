@@ -1,0 +1,1 @@
+int A = 100; //Defining and initialising extern variable A
